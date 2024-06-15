@@ -169,7 +169,7 @@ class Auction {
     await this.bee.del(item)
 
     this.notifyAll('Auction Closed', { ...auction })
-    return { auctionId, highestBid }
+    return { item, highestBid }
   }
 
   notifyAll(event, data) {
