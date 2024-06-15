@@ -1,0 +1,22 @@
+{
+    "name": "tether-project",
+    "version": "1.0.0",
+    "main": "index.js",
+    "directories": {
+      "test": "test"
+    },
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node index.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+      "b4a": "^1.6.6",
+      "corestore": "^6.18.2",
+      "hyperbee": "^2.19.6",
+      "hyperswarm": "^4.7.15"
+    }
+  }
+  
