@@ -71,9 +71,9 @@ class Auction {
           try {
             const jsonData = JSON.parse(data.toString());
 
-            if (jsonData.type === "update") {
-              console.log(`${JSON.stringify(jsonData.message)} \n`);
-            }
+            // if (jsonData.type === "update") {
+              console.log(`${JSON.stringify(jsonData)} \n`);
+            // }
           }
           catch (Ex) {
             
