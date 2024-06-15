@@ -157,7 +157,7 @@ class Auction {
 
   async closeAuction({item, closeBy}) {
     const auctionMap = await this.bee.get(item)
-    if (!auctionNode) {
+    if (!auctionMap) {
       throw new Error('Auction not found')
     }
     const auction = auctionMap.value
